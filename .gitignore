@@ -3,3 +3,6 @@
 .env.*
 *.zip
 *.tar.gz
+node_modules/
+dist/
+.vercel/

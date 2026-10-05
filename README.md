@@ -12,6 +12,18 @@ Site institucional de nutrição, biblioteca de ebooks e consultorias mensal, tr
 
 Abra `index.html` para visualizar. Não exige instalação de dependências ou compilação. A tipografia usa Google Fonts e exige internet para carregar essas fontes; existem fontes alternativas.
 
+## Publicação na Vercel
+
+O site não possui dependências de execução. A ferramenta Vercel é uma dependência de desenvolvimento, instalada e fixada em `package-lock.json`.
+
+1. Instale Node.js LTS e execute `npm ci` na pasta do projeto.
+2. Execute `npm run build`. Os arquivos públicos serão copiados para `dist/`.
+3. Na Vercel, importe `AgenciaBiggerDF/site-mateus-mendes`, use a raiz do repositório e o preset **Other**. O arquivo `vercel.json` define instalação, build e saída.
+
+Para publicar pelo terminal, execute `npm run deploy` (prévia) ou `npm run deploy:production` (produção), autenticando-se na conta correta da Vercel quando solicitado. Na publicação pela integração com GitHub, a Vercel instala somente dependências de produção; o build usa apenas recursos nativos do Node.js.
+
+A preparação do projeto não conecta automaticamente uma conta Vercel nem altera o DNS. Configurar `omateusmendes.com.br` exige revisar a hospedagem existente e preservar o workshop e o email.
+
 ## Troca das fotos
 
 - `assets/mateus-fisico.jpg`: abertura atual.
@@ -37,4 +49,4 @@ Os nomes dos ebooks são sugestões. Materiais, preços, condições, canais de 
 
 O histórico preserva duas versões do site criado neste trabalho: apresentação original e atualização visual com fotos do físico e estilo de vida. Ele não inclui o histórico de outros sites do domínio.
 
-Projeto privado de cliente. Não foi concedida licença de reutilização pública. Não inclua senhas, tokens ou dados de clientes nos commits.
+Repositório público autorizado pela Agência Bigger. Não foi concedida licença de reutilização pública. Não inclua senhas, tokens ou dados de clientes nos commits.

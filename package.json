@@ -1,0 +1,14 @@
+{
+  "name": "site-mateus-mendes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional do Mateus Mendes, mantido pela Agência Bigger",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "deploy": "vercel",
+    "deploy:production": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "62.4.0"
+  }
+}
