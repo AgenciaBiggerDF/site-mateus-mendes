@@ -58,3 +58,5 @@ Repositório público autorizado pela Agência Bigger. Não foi concedida licen�
 ## Biblioteca e imagens
 
 Cada ebook oferece “Saiba mais” com síntese, público e quatro ou cinco tópicos, além de CTA com a mensagem correspondente do UnniChat. Hipertrofia e Dormir Bem usam os materiais fornecidos. Emagrecimento e Mercado Saudável têm propostas editoriais identificadas como pendentes de finalização. As fotos fitness e de alimentos são ilustrações geradas por IA, não depoimentos nem resultados de pacientes.
+
+Atualização visual: casal fitness em Hipertrofia, composição com mulher menos musculosa em Emagrecimento, foto de descanso em Dormir Bem e check na imagem de Mercado Saudável. Cada card possui somente Saiba mais; o contato fica na janela. Consultorias usam cores e fotos discretas, referências visuais de 30, 30/60/90 e 180 dias, mantendo modalidades de 1/3/6 meses. Quero adquirir abre atendimento com intenção de aquisição até a Hubla estar pronta. Um único Falar com a Bia abaixo dos planos aciona o menu interativo do UnniChat na conexão laranja, com detalhes e encaminhamento para a equipe em cada opção. Nenhuma IA foi ativada.

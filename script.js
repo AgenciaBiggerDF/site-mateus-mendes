@@ -18,7 +18,7 @@ document.querySelectorAll('[data-ebook]').forEach(button=>button.addEventListene
  document.querySelector('#ebook-availability').textContent=detail.availability;
  document.querySelector('#ebook-points-heading').textContent=detail.heading;
  document.querySelector('#ebook-editorial').textContent=detail.editorial||'';
- const action=document.querySelector('#ebook-action');action.textContent=detail.action;action.href=card.querySelector('a[href*="wa.me"]').href;
+ const action=document.querySelector('#ebook-action');action.textContent=detail.action;action.href=button.dataset.contact;
  document.querySelector('#ebook-points').replaceChildren(...detail.points.map(text=>{const li=document.createElement('li');li.textContent=text;return li}));
  const visual=card.querySelector('.cover').cloneNode(true);document.querySelector('#ebook-visual').replaceChildren(visual);
  document.body.style.overflow='hidden';ebookDialog.showModal();ebookDialog.scrollTop=0;
