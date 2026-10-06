@@ -106,3 +106,5 @@ footer .brand{font-size:22px}
 .plans article .price{margin-top:24px;margin-bottom:20px;padding-top:20px;border-top:1px solid #ffffff20}.plans .button{margin-top:0}
 
 .installment-note{display:block;font-size:14px;letter-spacing:0;font-weight:600;color:var(--plan-accent);margin-top:14px}
+
+.plans .price-prefix{font-size:17px;font-weight:500;letter-spacing:0;color:var(--plan-accent)}
