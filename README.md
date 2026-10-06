@@ -7,7 +7,7 @@ Site institucional de nutrição, biblioteca de ebooks e consultorias mensal, tr
 - `index.html`: textos, seções e estrutura.
 - `style.css`: estilos originais e estrutura responsiva.
 - `refresh.css`: direção visual dark atual, com preto, grafite, dourado suave e fotos reais.
-- `script.js`: filtros de ebooks.
+- `script.js`: filtros de ebooks e janelas de detalhes acessíveis.
 - `assets/`: fotos reais do Mateus.
 
 Abra `index.html` para visualizar. Não exige instalação de dependências ou compilação. A tipografia usa Google Fonts e exige internet para carregar essas fontes; existem fontes alternativas.
@@ -54,3 +54,7 @@ Checkout da Hubla em preparação; a página encaminha interessados para atendim
 O histórico preserva duas versões do site criado neste trabalho: apresentação original e atualização visual com fotos do físico e estilo de vida. Ele não inclui o histórico de outros sites do domínio.
 
 Repositório público autorizado pela Agência Bigger. Não foi concedida licença de reutilização pública. Não inclua senhas, tokens ou dados de clientes nos commits.
+
+## Biblioteca e imagens
+
+Cada ebook oferece “Saiba mais” com síntese, público e quatro ou cinco tópicos, além de CTA com a mensagem correspondente do UnniChat. Hipertrofia e Dormir Bem usam os materiais fornecidos. Emagrecimento e Mercado Saudável têm propostas editoriais identificadas como pendentes de finalização. As fotos fitness e de alimentos são ilustrações geradas por IA, não depoimentos nem resultados de pacientes.
