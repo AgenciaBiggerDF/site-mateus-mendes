@@ -6,7 +6,7 @@ Site institucional de nutrição, biblioteca de ebooks e consultorias mensal, tr
 
 - `index.html`: textos, seções e estrutura.
 - `style.css`: estilos originais e estrutura responsiva.
-- `refresh.css`: direção visual atual, em branco, azul profundo e coral.
+- `refresh.css`: direção visual dark atual, com preto, grafite, dourado suave e fotos reais.
 - `script.js`: filtros de ebooks.
 - `assets/`: fotos reais do Mateus.
 

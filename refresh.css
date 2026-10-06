@@ -1,6 +1,91 @@
-:root{--bg:#fff;--panel:#edf3f8;--green:#c3462c;--text:#172842;--muted:#526377;--coral:#fa7857}body{background:#fff}header{border-color:#dce4eb}.brand small{font-size:10px;color:#66758a}nav{font-weight:500}.button{background:var(--coral);border-color:var(--coral);color:#18263a;border-radius:50px;font-size:15px;padding:16px 26px}.button:hover{background:#ff9578}.hero{padding-top:42px;padding-bottom:54px;gap:60px;grid-template-columns:1fr 1fr;min-height:730px}.hero h1{font-size:clamp(46px,4.75vw,70px);font-weight:700;letter-spacing:-3.4px;line-height:1.06}.hero .eyebrow{color:#586a81;letter-spacing:2px}.hero .lead{font-size:17px;max-width:460px}.hero-photo{height:640px;border-radius:240px 240px 20px 20px;box-shadow:20px 18px 0 #e9f0f8;overflow:visible}.hero-photo img{border-radius:inherit;object-position:center;object-fit:cover}.hero-photo:after{display:none}.photo-caption{left:-26px;bottom:28px;background:#172842;padding:20px 27px;border-radius:12px;color:white;box-shadow:0 12px 35px #17284220}.photo-caption span{color:#b7c9df;font-size:11px}.photo-caption p{font-size:23px}.hero-note{margin-top:35px;color:#596b80}.ticker{background:#edf3f8;color:#234361;font-size:11px;letter-spacing:2px}.ticker span{color:#da5638}.section{padding-top:85px;padding-bottom:85px}h2{font-weight:600;letter-spacing:-2.3px}.about{grid-template-columns:.85fr 1.15fr;gap:80px;align-items:center}.about-portrait img{width:100%;height:470px;object-fit:cover;object-position:56% center;border-radius:16px}.about-copy{padding-top:0;font-size:17px}.about-story h2{font-size:42px}.signature{color:#193455}.signature span{font-size:11px;color:#c3462c}.lifestyle{background:#172842;color:white;border-radius:20px;margin:0 6%;max-width:none;display:grid;grid-template-columns:1.1fr 1fr;gap:80px;align-items:center;padding:50px 55px}.lifestyle .eyebrow{color:#ff9a7b}.lifestyle em{color:#ff9a7b}.lifestyle p:not(.eyebrow){max-width:470px;color:#c0ccda;font-size:17px}.lifestyle img{width:100%;height:380px;object-fit:cover;object-position:center 70%;border-radius:12px}.lifestyle h2{font-size:42px}.paths{border-color:#dce4eb}.paths article{border-top:1px solid #dce4eb;padding-top:24px}.number{font-weight:700}.library{background:#f2f5f9;color:#172842}.library .eyebrow{color:#c3462c}.library em{color:#c3462c}.library .section-head p:not(.eyebrow){color:#526377}.filters button{border-color:#bdc9d5;color:#405570}.filters button.active{background:#172842;border-color:#172842}.cover{height:350px;border-radius:12px}.cover-one{background:#ff8968;color:#172842}.cover-two{background:#193b60;color:#fff}.cover-three{background:#d8e7f4;color:#172842}.cover h3{font-weight:700}.tag{color:#9b3d2b}.book-info h3{color:#172842}.book-info p{color:#526377}.book-info .text-link{color:#172842;border-color:#b8c4d0}.plans article{border-color:#cbd6df;background:white;box-shadow:0 8px 35px #16304706}.plans .featured{background:#edf3fa;border-color:#264c77!important}.plan-label{background:#244d7b;color:white}.plans ul{border-color:#d7e0e9;color:#526377}.plans li:before{color:#c3462c}.outline{background:transparent;border-color:#bbc9d8;color:#203c60}.outline:hover{background:#edf3f8}.faq{border-color:#dce4eb}details{border-color:#d2dce5}.closing{background:#eaf1f8}.closing h2{color:#172842}footer{border-top:1px solid #dce4eb}dialog{background:white;border-color:#d3dfe9;color:#172842;box-shadow:0 20px 70px #17284240}dialog p:not(.eyebrow),dialog li{color:#526377}dialog .close{color:#172842}.text-link{border-color:#bec9d4}.fine{font-size:14px}:focus-visible{outline-color:#285684!important}@media(min-width:1440px){.lifestyle{max-width:1268px;margin-left:auto;margin-right:auto}}@media(max-width:900px){.hero{gap:35px;min-height:0}.hero h1{font-size:49px}.hero-photo{height:570px;box-shadow:12px 12px 0 #e9f0f8}.photo-caption{left:-12px;padding:17px}.about{gap:35px}.about-story h2{font-size:34px}.lifestyle{gap:35px;padding:35px}.lifestyle h2{font-size:34px}.lifestyle img{height:370px}}@media(max-width:640px){.hero{grid-template-columns:1fr;padding-bottom:50px;gap:35px}.hero h1{font-size:52px;letter-spacing:-2.6px}.hero-photo{height:auto;aspect-ratio:1/1.1;margin:0 8px;border-radius:180px 180px 16px 16px}.hero-photo img{height:100%;width:100%;object-position:center}.photo-caption{left:-8px;bottom:20px}.photo-caption p{font-size:21px}.about{grid-template-columns:1fr;gap:30px}.about-portrait img{height:340px}.about-story h2{font-size:35px}.lifestyle{grid-template-columns:1fr;margin:0 6%;padding:30px 24px;gap:25px}.lifestyle img{height:340px;object-position:center 65%}.lifestyle h2{font-size:32px}.ticker{gap:12px;font-size:10px}.paths article{border-color:#dce4eb}.section{padding-top:60px;padding-bottom:60px}.cover h3{font-size:48px}.button{font-size:14px}.actions{gap:16px}}
-
-/* Biblioteca e consultorias do Mateus */
-.books{grid-template-columns:repeat(2,minmax(0,1fr))}.cover h3{max-width:90%;font-size:clamp(2.2rem,4vw,3.5rem)}.plans article .price{font-size:2rem;font-weight:800;color:var(--ink,#182740)}.price small{display:block;font-size:.8rem;font-weight:400;margin-top:.4rem}.availability{font-size:.8rem;opacity:.75;margin-top:1rem}.plans article{display:flex;flex-direction:column}.plans ul{flex:1}.plans .button{text-align:center}.featured .price{color:inherit}@media(max-width:700px){.books{grid-template-columns:1fr}}
-
-@media(min-width:701px){.plans h3{min-height:2.6em}}
+/* Mateus Mendes — direção dark, outubro de 2026 */
+:root{--bg:#0c0d0d;--panel:#171919;--green:#d6b778;--text:#f3f0e8;--muted:#aaa9a3;--line:#ffffff1c}
+body{background:var(--bg)}
+header{border-color:var(--line);padding-top:25px;padding-bottom:25px}
+.brand small{color:var(--muted);font-size:9px;letter-spacing:2.4px}
+nav{gap:28px;color:#d2d0c9}
+.button{background:var(--green);color:#171610;border-color:var(--green);border-radius:4px;padding:16px 25px;font-weight:700}
+.button:hover{background:#e8cc94}
+.button.small{background:transparent;color:var(--text);border-color:#ffffff40}
+.hero{grid-template-columns:1.12fr 1fr;gap:48px;padding-top:60px;padding-bottom:75px;min-height:770px;position:relative}
+.hero h1{font-size:clamp(48px,5.1vw,76px);font-weight:600;line-height:1.03;letter-spacing:-3.8px}
+.hero h1 em{color:var(--green)}
+.hero .eyebrow{font-size:10px;letter-spacing:2.6px;margin-bottom:30px}
+.hero .lead{font-size:17px;max-width:450px;line-height:1.7}
+.hero-photo{height:640px;border-radius:3px;box-shadow:18px 18px 0 #1b1d1a;overflow:hidden;border:1px solid #ffffff16}
+.hero-photo img{object-position:center;filter:saturate(.65) contrast(1.05)}
+.hero-photo:after{inset:55% 0 0;background:linear-gradient(transparent,#090b0bec)}
+.photo-caption{left:30px;bottom:30px}
+.photo-caption span{font-size:10px;letter-spacing:3px;color:var(--green)}
+.photo-caption p{font-size:25px;color:var(--text)}
+.hero-note{margin-top:34px;font-size:12px;letter-spacing:.3px}
+.ticker{background:#141615;color:#aaa9a3;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:10px;letter-spacing:2.4px;padding:22px}
+.ticker span{color:var(--green)}
+h2{font-weight:500;letter-spacing:-2px}
+.section{padding-top:100px;padding-bottom:100px}
+.about{grid-template-columns:.85fr 1.15fr;gap:80px;align-items:center}
+.about-portrait img{width:100%;height:490px;object-fit:cover;object-position:55% center;border-radius:3px;filter:saturate(.7)}
+.about-copy{padding:0;font-size:17px}
+.about-story h2{font-size:42px}
+.signature{font-size:22px}
+.signature span{font-size:9px;letter-spacing:2px}
+.lifestyle{background:#171918;display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:75px;padding:55px;margin:0 6%;max-width:none;border:1px solid var(--line);border-radius:3px}
+.lifestyle img{width:100%;height:390px;object-fit:cover;object-position:center 65%;border-radius:2px;filter:saturate(.7)}
+.lifestyle h2{font-size:42px}
+.lifestyle p:not(.eyebrow){color:var(--muted);max-width:460px;font-size:17px}
+.paths{border:0;padding-top:100px}
+.paths article{border-top:1px solid #d6b77855;padding-top:26px}
+.paths h3{font-size:25px;letter-spacing:-.8px}
+.number{font:500 34px/1.2 Manrope;color:#d6b778;letter-spacing:-1px;margin-bottom:30px}
+.paths p{font-size:15px}
+.library{background:#131515;color:var(--text);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.library .eyebrow,.library em{color:var(--green)}
+.library .section-head p:not(.eyebrow){color:var(--muted)}
+.books{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.filters button{border-color:#ffffff2c;color:var(--muted);padding:7px 17px}
+.filters button.active{background:var(--green);color:#171610;border-color:var(--green)}
+.cover{height:330px;border-radius:2px;padding:24px;overflow:hidden;border:1px solid #ffffff20;background:#222824;isolation:isolate}
+.cover:after{content:'';position:absolute;width:240px;height:240px;border:1px solid #ffffff17;border-radius:50%;right:-90px;bottom:-65px;z-index:-1;box-shadow:0 0 0 25px #ffffff04,0 0 0 50px #ffffff03}
+.cover h3{font-size:33px;line-height:1.1;font-weight:600;letter-spacing:-1.4px;margin:48px 0 22px;overflow-wrap:normal}
+.cover span{font-size:9px;letter-spacing:1.4px}
+.cover p{font-size:9px;letter-spacing:1.4px}
+.cover b{font-size:13px;color:inherit;opacity:.8}
+.cover-one{background:linear-gradient(145deg,#31392e,#171c16);color:#e1ddbf}
+.cover-two{background:linear-gradient(145deg,#332e23,#1c1a15);color:#dec99d}
+.cover-three{background:linear-gradient(145deg,#252c37,#14191f);color:#c4cfdf}
+.books article:last-child .cover{background:linear-gradient(145deg,#34342c,#1b1c18);color:#d7d5b7}
+.book-info{padding-top:23px}
+.tag{color:var(--green);font-size:9px;letter-spacing:1.4px}
+.book-info h3{color:var(--text);font-size:21px;min-height:2.4em;margin:12px 0 5px;letter-spacing:-.5px}
+.book-info p{color:var(--muted);font-size:14px}
+.book-info .text-link{color:var(--text);border-color:#d6b77870;font-size:12px}
+.availability{font-size:11px!important;letter-spacing:.3px;opacity:.7;margin:14px 0 0}
+.plans{gap:22px}
+.plans article{background:#151717;border-color:#ffffff24;border-radius:3px;padding:32px;box-shadow:none}
+.plans article.featured{background:linear-gradient(155deg,#29271e,#181a17);border-color:#d6b77888!important}
+.plans h3{font-size:23px;line-height:1.25;min-height:2.5em;letter-spacing:-.7px}
+.plans .eyebrow{color:var(--green);font-size:9px;letter-spacing:2px}
+.duration{font-size:70px;font-weight:500;margin-bottom:20px}
+.duration span{font-size:14px}
+.plans article .price{color:var(--text);font-size:30px;font-weight:700;letter-spacing:-1px;margin-bottom:24px}
+.price small{display:block;font-size:11px;font-weight:400;letter-spacing:.3px;color:var(--muted);margin-top:7px}
+.plans ul{border-color:var(--line);color:#c3c3bb;font-size:13px;line-height:1.6;margin-top:0}
+.plans li{margin:15px 0}
+.plans .button{text-align:center}
+.outline{background:transparent;color:var(--text);border-color:#ffffff40}
+.outline:hover{background:#282b27;color:var(--text)}
+.fine{max-width:760px;margin:30px auto 0;font-size:12px}
+.faq{border-color:var(--line);gap:85px}
+.faq h2{font-size:42px}
+details{border-color:var(--line)}
+summary{font-size:15px}
+.closing{background:radial-gradient(ellipse at 50% 100%,#2e2c21 0, #141615 65%);border-top:1px solid var(--line);padding:85px 20px}
+.closing h2{font-size:clamp(38px,4.8vw,66px);font-weight:500}
+footer{border-top:1px solid var(--line);font-size:11px;gap:30px}
+footer .brand{font-size:22px}
+:focus-visible{outline-color:var(--green)!important}
+@media(min-width:1440px){.lifestyle{max-width:1268px;margin-left:auto;margin-right:auto}}
+@media(max-width:1050px){.books{grid-template-columns:repeat(2,minmax(0,1fr))}.hero h1{font-size:58px}.hero-photo{height:590px}.about{gap:45px}.lifestyle{gap:40px;padding:40px}.plans article{padding:25px}.plans article .price{font-size:27px}}
+@media(max-width:750px){nav{gap:18px}.hero{gap:25px}.hero h1{font-size:48px;letter-spacing:-2.5px}.hero-photo{height:520px}.lifestyle{grid-template-columns:1fr}.three.plans{grid-template-columns:1fr}.plans h3{min-height:0}.about-story h2{font-size:34px}.about{gap:25px}}
+@media(max-width:640px){header{padding:24px 6%;gap:24px}nav{width:100%;justify-content:space-between;font-size:12px;gap:10px}.hero{grid-template-columns:1fr;gap:35px;padding-top:40px;padding-bottom:65px;min-height:0}.hero h1{font-size:51px;letter-spacing:-2.8px;line-height:1.05}.hero .eyebrow{font-size:9px;letter-spacing:2px;margin-bottom:25px}.hero .lead{font-size:16px}.hero-photo{height:auto;aspect-ratio:4/5;margin:0 10px 0 0;box-shadow:10px 10px 0 #1b1d1a;border-radius:2px}.photo-caption{left:24px;bottom:24px}.photo-caption p{font-size:25px}.actions{gap:18px}.button{font-size:13px;padding:15px 20px}.section{padding-top:65px;padding-bottom:65px}.about{grid-template-columns:1fr;gap:30px}.about-portrait img{height:380px}.about-story h2{font-size:35px}.lifestyle{margin:0 6%;padding:28px 24px;gap:24px}.lifestyle h2{font-size:33px}.lifestyle img{height:340px}.lifestyle p:not(.eyebrow){font-size:16px}.ticker{gap:11px;font-size:8px;letter-spacing:1.5px}.paths article{border-bottom:0}.paths h3{font-size:25px}.number{font-size:28px;margin-bottom:15px}.books{grid-template-columns:1fr;gap:38px}.cover{height:350px;padding:30px}.cover h3{font-size:44px;max-width:250px}.book-info h3{min-height:0;font-size:24px}.book-info .text-link{font-size:14px}.plans article{padding:32px}.plans article .price{font-size:32px}.plans h3{font-size:25px}.faq h2{font-size:35px}.faq{gap:20px}.closing{padding:65px 24px}.closing h2{font-size:39px}footer{padding:32px 6%}}
+.library>.section-head{margin:0 auto 45px}.books article:nth-child(2) .cover h3{font-size:28px}@media(max-width:640px){.books article:nth-child(2) .cover h3{font-size:36px}}
