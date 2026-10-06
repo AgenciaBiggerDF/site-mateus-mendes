@@ -7,7 +7,7 @@ Site institucional de nutrição, biblioteca de ebooks e consultorias mensal, tr
 - `index.html`: textos, seções e estrutura.
 - `style.css`: estilos originais e estrutura responsiva.
 - `refresh.css`: direção visual atual, em branco, azul profundo e coral.
-- `script.js`: filtros e janelas de detalhes.
+- `script.js`: filtros de ebooks.
 - `assets/`: fotos reais do Mateus.
 
 Abra `index.html` para visualizar. Não exige instalação de dependências ou compilação. A tipografia usa Google Fonts e exige internet para carregar essas fontes; existem fontes alternativas.
@@ -43,7 +43,11 @@ Prévia publicada: https://mateus-mendes-nutricao.agenciabigger.chatgpt.site/ (a
 
 ## Estado comercial
 
-Os nomes dos ebooks são sugestões. Materiais, preços, condições, canais de compra e agendamento ainda precisam ser definidos. Os botões atuais informam que as ofertas estão em preparação; não processam pagamentos nem inscrições.
+Atualização de 06/10/2026: consultorias de 1 mês (R$ 449), 3 meses (R$ 1.181) e 6 meses (R$ 1.998), com valores totais e entregáveis informados por Mateus. Botões abrem o WhatsApp da Bia do Mateus, +55 61 8289-0410, com mensagens específicas que acionam os fluxos do UnniChat.
+
+Hipertrofia Máxima é gratuito e entregue pelo UnniChat. Emagrecimento será gratuito, ainda em preparação. Dormir Bem e Mercado Saudável serão pagos; preços e links de checkout ainda pendentes. Nenhum PDF pago foi incluído neste repositório público.
+
+Checkout da Hubla em preparação; a página encaminha interessados para atendimento e não processa pagamentos.
 
 ## Histórico e direitos
 
